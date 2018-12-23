@@ -78,6 +78,8 @@
       const secondsDegrees = ((seconds / 60) * 360)+ 90;
       secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
+      const mins = now.getMinutes();
+
       // console.log(seconds);
     }
     setInterval(setDate, 1000);
